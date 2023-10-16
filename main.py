@@ -9,7 +9,7 @@ try:
         for linea in archivo:
             # Elimina espacios en blanco y caracteres de nueva línea
             linea = linea.strip()
-            resultado = automata.procesar_cadena(linea, numero_renglon)
+            resultado = automata.procesar_cadena(linea.replace(" ", ""), numero_renglon)
             print(linea)
             print(resultado)
             print('-----------------------')
