@@ -2,8 +2,19 @@ from Script import Automata
 
 automata = Automata()  
 
-while (True):
-    cadena = input('Ingresa cadena: ')
-    resultado = automata.procesar_cadena(cadena,1)
-    print('-----------------------')
-    print(resultado)
+nombre_archivo = "File_out.txt"
+try:
+    with open(nombre_archivo, "r") as archivo:
+        numero_renglon = 1
+        for linea in archivo:
+            # Elimina espacios en blanco y caracteres de nueva línea
+            linea = linea.strip()
+            resultado = automata.procesar_cadena(linea, numero_renglon)
+            print(linea)
+            print(resultado)
+            print('-----------------------')
+            numero_renglon += 1
+except FileNotFoundError:
+    print(f"El archivo '{nombre_archivo}' no se encontró.")
+except Exception as e:
+    print(f"Error al procesar el archivo: {str(e)}")
