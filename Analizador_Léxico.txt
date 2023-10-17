@@ -1,0 +1,117 @@
+Linea 1: string
+Resultado: string, Tipo de variable, renglon: 1
+-----------------------
+Linea 1: =
+Resultado: =, Separador, renglon: 1
+-----------------------
+Linea 1: "owo"
+Resultado: "owo", Cadena, Token 3 renglon: 1
+-----------------------
+Linea 1: ;
+Resultado: ;, Separador, renglon: 1
+-----------------------
+Linea 2: numero1
+Resultado: numero1, Variable, Token 7 renglon: 2
+-----------------------
+Linea 2: =
+Resultado: =, Separador, renglon: 2
+-----------------------
+Linea 2: float
+Resultado: float, Tipo de variable, renglon: 2
+-----------------------
+Linea 2: 5.5
+Resultado: 5.5, Numero decimal, Token 10, renglon: 2
+-----------------------
+Linea 2: ;
+Resultado: ;, Separador, renglon: 2
+-----------------------
+Linea 3: numero2
+Resultado: numero2, Variable, Token 7 renglon: 3
+-----------------------
+Linea 3: =
+Resultado: =, Separador, renglon: 3
+-----------------------
+Linea 3: int
+Resultado: int, Tipo de variable, renglon: 3
+-----------------------
+Linea 3: -3
+Resultado: -3, Negativo entero, Token 12, renglon: 3
+-----------------------
+Linea 3: ;
+Resultado: ;, Separador, renglon: 3
+-----------------------
+Linea 4: suma
+Resultado: suma, Variable, Token 7 renglon: 4
+-----------------------
+Linea 4: =
+Resultado: =, Separador, renglon: 4
+-----------------------
+Linea 4: numero1
+Resultado: numero1, Variable, Token 7 renglon: 4
+-----------------------
+Linea 4: +
+Resultado: +, Separador, renglon: 4
+-----------------------
+Linea 4: numero2
+Resultado: numero2, Variable, Token 7 renglon: 4
+-----------------------
+Linea 4: ;
+Resultado: ;, Separador, renglon: 4
+-----------------------
+Linea 5: resta
+Resultado: resta, Variable, Token 7 renglon: 5
+-----------------------
+Linea 5: =
+Resultado: =, Separador, renglon: 5
+-----------------------
+Linea 5: numero1
+Resultado: numero1, Variable, Token 7 renglon: 5
+-----------------------
+Linea 5: -
+Resultado: -, Separador, renglon: 5
+-----------------------
+Linea 5: numero2
+Resultado: numero2, Variable, Token 7 renglon: 5
+-----------------------
+Linea 5: ;
+Resultado: ;, Separador, renglon: 5
+-----------------------
+Linea 6: @Mostrar los resultados@
+Resultado: @Mostrarlosresultados@, Comentario, Token 5, renglon: 6
+-----------------------
+Linea 6: ;
+Resultado: ;, Separador, renglon: 6
+-----------------------
+Linea 7: print
+Resultado: print, Palabra Reservada, token  10, renglon: 7
+-----------------------
+Linea 7: (
+Resultado: (, Separador, renglon: 7
+-----------------------
+Linea 7: suma
+Resultado: suma, Variable, Token 7 renglon: 7
+-----------------------
+Linea 7: )
+Resultado: ), Separador, renglon: 7
+-----------------------
+Linea 7: ;
+Resultado: ;, Separador, renglon: 7
+-----------------------
+Linea 8: print
+Resultado: print, Palabra Reservada, token  10, renglon: 8
+-----------------------
+Linea 8: (
+Resultado: (, Separador, renglon: 8
+-----------------------
+Linea 8: resta
+Resultado: resta, Variable, Token 7 renglon: 8
+-----------------------
+Linea 8: )
+Resultado: ), Separador, renglon: 8
+-----------------------
+Linea 8: ;
+Resultado: ;, Separador, renglon: 8
+-----------------------
+Linea 9: adadad
+Resultado: adadad, Variable, Token 7 renglon: 9
+-----------------------

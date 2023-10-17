@@ -1,6 +1,7 @@
 string
  =
  "owo"
+;
 numero1
  =
  float
@@ -24,11 +25,15 @@ resta
  numero2
 ;
 @Mostrar los resultados@
+;
 print
-(suma
+(
+suma
 )
 ;
 print
-(resta
+(
+resta
 )
 ;
+ adadad
